@@ -15,3 +15,4 @@ describe('Get email domain', () => {
     assert.strictEqual(getEmailDomain('example-indeed@strange-example.com'), 'strange-example.com');
   });
 });
+
